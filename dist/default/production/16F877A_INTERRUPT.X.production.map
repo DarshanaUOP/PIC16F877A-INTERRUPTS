@@ -1,0 +1,46 @@
+MPLINK 5.08, LINKER
+Linker Map File - Created Sun Mar 18 19:15:02 2018
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                   .org_0       code   0x000000    program   0x000002
+                   .cinit    romdata   0x000001    program   0x000004
+                   .org_1       code   0x000004    program   0x00005c
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x000002      
+                            0x000004    0x000031      
+            49 out of 8454 program addresses used, program memory utilization is 0%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                    DELAY   0x00002d    program     static C:\Users\acer\MPLABXProjects\16F877A_INTERRUPT.X\INTERUPT.asm
+                GO_BANK_0   0x000021    program     static C:\Users\acer\MPLABXProjects\16F877A_INTERRUPT.X\INTERUPT.asm
+                GO_BANK_1   0x000024    program     static C:\Users\acer\MPLABXProjects\16F877A_INTERRUPT.X\INTERUPT.asm
+                GO_BANK_2   0x000027    program     static C:\Users\acer\MPLABXProjects\16F877A_INTERRUPT.X\INTERUPT.asm
+                GO_BANK_3   0x00002a    program     static C:\Users\acer\MPLABXProjects\16F877A_INTERRUPT.X\INTERUPT.asm
+                    LEDON   0x000012    program     static C:\Users\acer\MPLABXProjects\16F877A_INTERRUPT.X\INTERUPT.asm
+                     Main   0x000005    program     static C:\Users\acer\MPLABXProjects\16F877A_INTERRUPT.X\INTERUPT.asm
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                     Main   0x000005    program     static C:\Users\acer\MPLABXProjects\16F877A_INTERRUPT.X\INTERUPT.asm
+                    LEDON   0x000012    program     static C:\Users\acer\MPLABXProjects\16F877A_INTERRUPT.X\INTERUPT.asm
+                GO_BANK_0   0x000021    program     static C:\Users\acer\MPLABXProjects\16F877A_INTERRUPT.X\INTERUPT.asm
+                GO_BANK_1   0x000024    program     static C:\Users\acer\MPLABXProjects\16F877A_INTERRUPT.X\INTERUPT.asm
+                GO_BANK_2   0x000027    program     static C:\Users\acer\MPLABXProjects\16F877A_INTERRUPT.X\INTERUPT.asm
+                GO_BANK_3   0x00002a    program     static C:\Users\acer\MPLABXProjects\16F877A_INTERRUPT.X\INTERUPT.asm
+                    DELAY   0x00002d    program     static C:\Users\acer\MPLABXProjects\16F877A_INTERRUPT.X\INTERUPT.asm
+
+
